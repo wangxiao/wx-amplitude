@@ -10,7 +10,7 @@ Amplitude SDK for WeChat small app.
 
 在小程序中引入对应的文件，按照以下方式使用
 
-```
+```javascript
 const Amplitude = require('./libs/wx-amplitude').default;
 const amplitude = Amplitude({
   // the proxy of amplitude api server
